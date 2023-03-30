@@ -1,0 +1,98 @@
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title h1 {
+  font-size: 48px;
+  color: #333;
+  margin-top: 0;
+}
+
+/* Center image */
+.center-image {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.center-image img {
+  width: 1200px;
+  height: 500px;
+}
+
+/* Grid */
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.column {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs li {
+  margin: 0 10px;
+}
+
+.tabs li a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.tabs li a:hover {
+  background-color: #666;
+}
+
+body {
+  background-color: #45857e;
+  color: black;
+  font-family: "California FB", serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* add specific styles for each page here */

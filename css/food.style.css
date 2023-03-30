@@ -1,0 +1,63 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Grid Styles */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  padding: 10px;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  padding: 10px;
+}
+
+/* Centering Styles */
+.center {
+  text-align: center;
+}
+
+/* Page-Specific Styles */
+.description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.restaurant-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review {
+  font-style: italic;
+}
